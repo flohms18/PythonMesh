@@ -15,5 +15,5 @@ sales_data = [
 def get_sales_data():
     return {
         "data" : sales_data,
-        "owner" : "Sales Teams"
+        "owner" : "Sales Team"
     }
