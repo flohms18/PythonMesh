@@ -7,7 +7,7 @@ app = FastAPI(title="Python_Mesh")
 @app.get("/products")
 def products():
     return {
-        "products" : list_data_products
+        "products" : list_data_products()
     }
 
 @app.get("products/{product_name}")
